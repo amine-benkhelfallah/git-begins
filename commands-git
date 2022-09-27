@@ -3,3 +3,4 @@ git add “commands-git”
 git commit -m “commands-git”
 git push
 git pull
+git reset --hard
