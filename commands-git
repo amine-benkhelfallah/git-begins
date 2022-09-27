@@ -2,3 +2,4 @@ git clone commands-git
 git add “commands-git”
 git commit -m “commands-git”
 git push
+git pull
