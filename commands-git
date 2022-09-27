@@ -1,6 +1,8 @@
 git clone commands-git
 git add “commands-git”
-git commit -m “commands-git”
+git commit -m "test"
 git push
 git pull
-git reset --hard
+git branch
+git checkout
+modif sur branch add-create 15:05
