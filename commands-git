@@ -1,8 +1,25 @@
-git clone commands-git
-git add “commands-git”
-git commit -m "test"
-git push
-git pull
-git branch
-git checkout
-modif sur branch add-create 15:05
+Pour cloner un repository de github
+git clone <URL du directory>
+Notre job : 
+    git clone https://github.com/amine-benkhelfallah/git-begins
+
+les trois commandes de puch
+1)  git add “nom du fichier ou du dossier”
+2)  git commit -m "message pour renseigner le travail ou les modifications effectué"
+3)  git push origin main ou git push origin master [la branche MASTER est une branche comme les autres. On l’utilise comme branche principale uniquement par convention]
+Notre job : 
+    git add git-bigins/commands-git
+    git commit -m "commandes git"
+    git push origin main 
+
+transfert des modifications faites sur github sur notre machine locale 
+git pull < URL du directory>
+Notre job :
+    git pull http://github.com/amine-benkhelfallah/git-begins
+
+Creation d'une nouvelle branche
+git branch “nom de la branche”
+Notre job :
+    git branch add-create-branch-command*
+
+
